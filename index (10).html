@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepa Thamizhselvan | AI & Data Science Portfolio</title>
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:linear-gradient(-45deg,#93C572,#FFD54F,#B6E2A1,#FFF176);
+background-size:400% 400%;
+animation:gradientMove 12s ease infinite;
+scroll-behavior:smooth;
+color:#222;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* HEADER */
+header{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.85);
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+box-shadow:0 4px 20px rgba(0,0,0,0.4);
+}
+
+.logo{
+color:#FFD54F;
+font-size:20px;
+font-weight:bold;
+letter-spacing:1px;
+text-shadow:0 0 10px #FFD54F;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:14px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#FFD54F;
+}
+
+/* SECTION */
+section{
+padding:120px 20px;
+text-align:center;
+max-width:1100px;
+margin:auto;
+}
+
+/* HOME */
+.home{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+color:#111;
+}
+
+.home-box{
+background:rgba(255,255,255,0.25);
+backdrop-filter:blur(15px);
+padding:50px;
+border-radius:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+border:2px solid rgba(255,213,79,0.6);
+transition:0.4s;
+}
+
+.home-box:hover{
+transform:translateY(-8px);
+box-shadow:0 0 35px rgba(255,213,79,0.8);
+}
+
+.home h1{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.home h2{
+font-size:18px;
+margin-bottom:15px;
+color:#2e7d32;
+}
+
+.home p{
+font-size:14px;
+line-height:1.6;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 25px;
+background:#2e7d32;
+color:white;
+border-radius:25px;
+text-decoration:none;
+font-size:14px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#FFD54F;
+color:black;
+}
+
+/* ABOUT */
+.card{
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+border-left:5px solid #FFD54F;
+font-size:14px;
+line-height:1.7;
+}
+
+/* SKILLS */
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+}
+
+.skill{
+background:white;
+padding:20px;
+width:180px;
+border-radius:15px;
+font-size:14px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+border-bottom:4px solid #FFD54F;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:translateY(-8px);
+box-shadow:0 0 25px rgba(147,197,114,0.7);
+}
+
+/* PROJECTS */
+.projects-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.project{
+background:white;
+padding:25px;
+width:260px;
+border-radius:18px;
+font-size:14px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+border-top:4px solid #2e7d32;
+transition:0.3s;
+text-align:left;
+}
+
+.project:hover{
+transform:translateY(-8px);
+box-shadow:0 0 30px rgba(255,213,79,0.7);
+}
+
+.project h3{
+margin-bottom:10px;
+}
+
+.project ul{
+margin-left:18px;
+margin-bottom:10px;
+}
+
+.project a{
+color:#2e7d32;
+font-weight:bold;
+text-decoration:none;
+}
+
+.project a:hover{
+color:#FFD54F;
+}
+
+/* CONTACT */
+.contact-box{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+font-size:14px;
+}
+
+/* FOOTER */
+footer{
+background:black;
+color:#FFD54F;
+text-align:center;
+padding:15px;
+font-size:13px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Deepa Thamizhselvan</div>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="home">
+<div class="home-box">
+<h1>Deepa Thamizhselvan</h1>
+<h2>B.Tech Artificial Intelligence & Data Science</h2>
+<p>
+Passionate AI & Data Science student with strong knowledge in Advanced Python and foundational expertise in HTML & CSS. Focused on building intelligent systems and full stack applications.
+</p>
+<a href="https://github.com/deeparts09-afk/Python-full-stack" class="btn" target="_blank">View GitHub</a>
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+I am Deepa Thamizhselvan, currently pursuing B.Tech in Artificial Intelligence and Data Science. 
+I possess strong skills in Advanced Python programming and solid understanding of HTML and CSS fundamentals. 
+I continuously strive to enhance my knowledge in Machine Learning, Data Analytics, and modern web technologies to develop impactful and scalable solutions.
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="skills">
+<div class="skill">Advanced Python</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Data Science</div>
+<div class="skill">Git & GitHub</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects-container">
+
+<div class="project">
+<h3>Python Full Stack Project</h3>
+<ul>
+<li>User Authentication</li>
+<li>Database Integration</li>
+<li>Responsive UI</li>
+<li>Backend API Development</li>
+</ul>
+<a href="https://github.com/deeparts09-afk/Python-full-stack" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project">
+<h3>AI Mini Project</h3>
+<ul>
+<li>Data Preprocessing</li>
+<li>Model Training</li>
+<li>Accuracy Optimization</li>
+<li>Visualization Dashboard</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="contact-box">
+<p><strong>Email:</strong> deeparts09@gmail.com</p>
+<p><strong>Phone:</strong> 6385567732</p>
+</div>
+</section>
+
+<footer>
+© 2026 Deepa Thamizhselvan | AI & Data Science Portfolio
+</footer>
+
+</body>
+</html>
